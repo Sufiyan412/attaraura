@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Monsoon Bloom (Unisex)",
+    "brand": "AttarAura",
+    "price": 2499,
+    "rating": 4.7,
+    "notes": [
+      "jasmine",
+      "rain",
+      "musk"
+    ],
+    "longevity": "Long-lasting",
+    "image": "https://picsum.photos/seed/attar1/600/800",
+    "tag": "Bestseller"
+  },
+  {
+    "id": 2,
+    "name": "Saffron Oud (Men)",
+    "brand": "Noor",
+    "price": 3299,
+    "rating": 4.8,
+    "notes": [
+      "oud",
+      "saffron",
+      "amber"
+    ],
+    "longevity": "Intense",
+    "image": "https://picsum.photos/seed/attar2/600/800",
+    "tag": "Premium"
+  },
+  {
+    "id": 3,
+    "name": "Gulab Royale (Women)",
+    "brand": "Mehek",
+    "price": 1899,
+    "rating": 4.5,
+    "notes": [
+      "rose",
+      "vanilla",
+      "powder"
+    ],
+    "longevity": "Moderate",
+    "image": "https://picsum.photos/seed/attar3/600/800",
+    "tag": "New"
+  },
+  {
+    "id": 4,
+    "name": "Citrus Bazaar (Unisex)",
+    "brand": "Zest",
+    "price": 1499,
+    "rating": 4.3,
+    "notes": [
+      "bergamot",
+      "lemon",
+      "neroli"
+    ],
+    "longevity": "Fresh",
+    "image": "https://picsum.photos/seed/attar4/600/800"
+  },
+  {
+    "id": 5,
+    "name": "Cardamom Nights (Men)",
+    "brand": "Masala",
+    "price": 2199,
+    "rating": 4.4,
+    "notes": [
+      "cardamom",
+      "cedar",
+      "tonka"
+    ],
+    "longevity": "Long-lasting",
+    "image": "https://picsum.photos/seed/attar5/600/800"
+  },
+  {
+    "id": 6,
+    "name": "Mango Mist (Women)",
+    "brand": "Utsav",
+    "price": 1299,
+    "rating": 4.2,
+    "notes": [
+      "mango",
+      "pear",
+      "musk"
+    ],
+    "longevity": "Light",
+    "image": "https://picsum.photos/seed/attar6/600/800"
+  }
+]
