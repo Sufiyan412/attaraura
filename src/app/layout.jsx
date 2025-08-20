@@ -1,5 +1,6 @@
-'use client';
-import { CartProvider } from './context/CartContext.jsx';
+// src/app/layout.jsx (Server Component, no 'use client')
+import './globals.css';
+import ClientProviders from './providers/ClientProviders.jsx';
 
 export const metadata = {
   title: 'AttarAura — Fragrances for every story',
@@ -9,11 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <script src="https://checkout.razorpay.com/v1/checkout.js" async></script>
-      </head>
-      <body style={{margin:0,fontFamily:'system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial'}}>
-        <CartProvider>{children}</CartProvider>
+      <body>
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );

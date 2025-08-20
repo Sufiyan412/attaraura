@@ -1,7 +1,8 @@
 FROM node:20-alpine AS deps
+RUN apk add --no-cache libc6-compat
 WORKDIR /app
-COPY package.json ./
-RUN npm install --omit=dev
+COPY package.json package-lock.json* ./
+RUN npm ci --omit=dev && npm cache clean --force
 
 FROM node:20-alpine AS builder
 WORKDIR /app
