@@ -1,6 +1,6 @@
 // src/app/layout.jsx (Server Component, no 'use client')
 import './globals.css';
-import ClientProviders from './providers/ClientProviders.jsx';
+import ClientProviders from './ClientProviders.jsx';
 
 export const metadata = {
   title: 'AttarAura — Fragrances for every story',
