@@ -1,4 +1,3 @@
-'use client';
 import { CartProvider } from './context/CartContext.jsx';
 
 export const metadata = {
